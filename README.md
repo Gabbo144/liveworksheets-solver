@@ -1,5 +1,6 @@
 # liveworksheets-solver
 I bet you are lazy and don't want to do a liveworksheets.com test... well, this repository is for you.
+
 ⚠️TO BE USED FOR EDUCATIONAL PURPOSES ONLY. The use of this tool is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.⚠️
 This tool was inspired by [TobyAdd's livewsga](https://github.com/TobyAdd/livewsga)
 ## How to use
