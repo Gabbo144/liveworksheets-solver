@@ -4,6 +4,7 @@ I bet you are lazy and don't want to do a liveworksheets.com test... well, this 
 ⚠️TO BE USED FOR EDUCATIONAL PURPOSES ONLY. The use of this tool is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.⚠️
 This tool was inspired by [TobyAdd's livewsga](https://github.com/TobyAdd/livewsga)
 ## How to use
+When applied to a page, this tool will fill the spaces and display a 10/10 score.
 Open the liveworksheet you want the tool to solve, open the Developer Console in your browser pressing F12 or right-clicking and pressing "Inspect". Then go in the console and past this code in it:
 ```
 jQuery("#worksheet-preview").worksheetPreview("validation", { clicked: false, showAnswers: true, showRightAnswers: true });
