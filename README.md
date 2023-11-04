@@ -13,9 +13,10 @@ When applied to a page, this tool will fill the spaces and display a 10/10 score
 Open the liveworksheet you want the tool to solve, open the Developer Console in your browser pressing F12 or right-clicking and pressing "Inspect". Then go in the console and past this code in it:
 
 ## Come usare
-Quando applicato a una pagina, questo script riempie gli spazi vuoti con la risposta cordetta e mostra un puntegguo finale di 10/10
-Apri il worksheet che vuoi risolvere, clicca F12 (oppure tasto destro e poi ispeziona), clicca sulla scheda "console" e incolla. Ora ti basta premere invio.
+Quando applicato a una pagina, questo script riempie gli spazi vuoti con la risposta cordetta e mostra un puntegguo finale di 10/10. Dopo aver copkato il codice qua sotto, apri il worksheet che vuoi risolvere, clicca F12 (oppure tasto destro e poi ispeziona), clicca sulla scheda "console" e incolla. Ora ti basta premere invio.
 
+
+## Code
 ```
 jQuery("#worksheet-preview").worksheetPreview("validation", { clicked: false, showAnswers: true, showRightAnswers: true });
 var newRateElement = '<div id="worksheet-rate" class="empty:hidden grade absolute top-1 left-1 bg-white/70 backdrop-blur-sm rounded-lg p-2 text-center text-red-500 border text-xl">10/10</div>';
